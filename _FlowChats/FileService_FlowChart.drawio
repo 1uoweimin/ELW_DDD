@@ -1,0 +1,138 @@
+<mxfile host="Electron" modified="2024-06-30T12:04:58.091Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.2.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="a1qMtlTGQ4GQTT6kQhs4" version="24.2.5" type="device">
+  <diagram name="第 1 页" id="bxbL1aFiy9ni_M4KYq4M">
+    <mxGraphModel dx="603" dy="907" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="KKPglW3mis1pUIfQqAQX-1" value="" style="group;aspect=fixed;fontSize=21;align=center;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="230" y="92" width="430" height="810" as="geometry" />
+        </mxCell>
+        <mxCell id="KKPglW3mis1pUIfQqAQX-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="KKPglW3mis1pUIfQqAQX-1" source="KKPglW3mis1pUIfQqAQX-3" target="KKPglW3mis1pUIfQqAQX-36" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KKPglW3mis1pUIfQqAQX-3" value="&lt;b style=&quot;font-size: 12px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Start&lt;/font&gt;&lt;/b&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;align=center;fontSize=12;" parent="KKPglW3mis1pUIfQqAQX-1" vertex="1">
+          <mxGeometry x="112.9072517269577" width="61.58577366924964" height="41.05726848767489" as="geometry" />
+        </mxCell>
+        <mxCell id="KKPglW3mis1pUIfQqAQX-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="KKPglW3mis1pUIfQqAQX-1" source="KKPglW3mis1pUIfQqAQX-7" target="KKPglW3mis1pUIfQqAQX-9" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="143.7211764705883" y="229.36123251165895" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KKPglW3mis1pUIfQqAQX-5" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Y&lt;/font&gt;" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];fontSize=18;" parent="KKPglW3mis1pUIfQqAQX-4" vertex="1" connectable="0">
+          <mxGeometry x="-0.55" y="1" relative="1" as="geometry">
+            <mxPoint x="1" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KKPglW3mis1pUIfQqAQX-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.454;entryY=-0.081;entryDx=0;entryDy=0;entryPerimeter=0;" parent="KKPglW3mis1pUIfQqAQX-1" source="KKPglW3mis1pUIfQqAQX-7" target="KKPglW3mis1pUIfQqAQX-31" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="363.8448406300747" y="219.0969153897402" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KKPglW3mis1pUIfQqAQX-7" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;JWT 验证&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=12;align=center;" parent="KKPglW3mis1pUIfQqAQX-1" vertex="1">
+          <mxGeometry x="102.64295611541608" y="142.9823784143904" width="82.11436489233286" height="51.321585609593605" as="geometry" />
+        </mxCell>
+        <mxCell id="KKPglW3mis1pUIfQqAQX-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="KKPglW3mis1pUIfQqAQX-1" source="KKPglW3mis1pUIfQqAQX-9" target="KKPglW3mis1pUIfQqAQX-19" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KKPglW3mis1pUIfQqAQX-9" value="IFormFile 转换成 Stream,&lt;div style=&quot;font-size: 12px;&quot;&gt;计算【大小】和【Hash值】&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;align=center;fontSize=12;" parent="KKPglW3mis1pUIfQqAQX-1" vertex="1">
+          <mxGeometry x="62.73221606557377" y="236.15605263157892" width="163.21460360655738" height="51.32131578947369" as="geometry" />
+        </mxCell>
+        <mxCell id="KKPglW3mis1pUIfQqAQX-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="KKPglW3mis1pUIfQqAQX-1" source="KKPglW3mis1pUIfQqAQX-12" target="KKPglW3mis1pUIfQqAQX-25" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KKPglW3mis1pUIfQqAQX-11" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;dashed=1;" parent="KKPglW3mis1pUIfQqAQX-1" source="KKPglW3mis1pUIfQqAQX-12" target="KKPglW3mis1pUIfQqAQX-26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KKPglW3mis1pUIfQqAQX-12" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;存储到备份服务器&lt;/font&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;align=center;fontStyle=0;fontSize=12;" parent="KKPglW3mis1pUIfQqAQX-1" vertex="1">
+          <mxGeometry x="74.41614318367665" y="479.4229047301799" width="138.5679907558117" height="30.792951365756164" as="geometry" />
+        </mxCell>
+        <mxCell id="KKPglW3mis1pUIfQqAQX-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="KKPglW3mis1pUIfQqAQX-1" source="KKPglW3mis1pUIfQqAQX-15" target="KKPglW3mis1pUIfQqAQX-21" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KKPglW3mis1pUIfQqAQX-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;curved=1;" parent="KKPglW3mis1pUIfQqAQX-1" source="KKPglW3mis1pUIfQqAQX-15" target="KKPglW3mis1pUIfQqAQX-38" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KKPglW3mis1pUIfQqAQX-15" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;UploadedItem&amp;nbsp;&lt;/font&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;插入&lt;span style=&quot;background-color: initial; font-size: 12px;&quot;&gt;数据库&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;fontStyle=0;fontSize=12;align=center;" parent="KKPglW3mis1pUIfQqAQX-1" vertex="1">
+          <mxGeometry x="92.37866050387444" y="602.5947101932047" width="102.64295611541608" height="41.05726848767489" as="geometry" />
+        </mxCell>
+        <mxCell id="KKPglW3mis1pUIfQqAQX-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="KKPglW3mis1pUIfQqAQX-1" source="KKPglW3mis1pUIfQqAQX-19" target="KKPglW3mis1pUIfQqAQX-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KKPglW3mis1pUIfQqAQX-17" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;N&lt;/font&gt;" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];fontSize=18;" parent="KKPglW3mis1pUIfQqAQX-16" vertex="1" connectable="0">
+          <mxGeometry x="-0.2966" y="3" relative="1" as="geometry">
+            <mxPoint x="-2" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KKPglW3mis1pUIfQqAQX-18" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;elbow=vertical;" parent="KKPglW3mis1pUIfQqAQX-1" source="KKPglW3mis1pUIfQqAQX-19" target="KKPglW3mis1pUIfQqAQX-21" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint y="551.2731245836109" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KKPglW3mis1pUIfQqAQX-19" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;存在 【大小】和【Hash值】相同的 UploadedItem&amp;nbsp;&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontSize=12;align=center;" parent="KKPglW3mis1pUIfQqAQX-1" vertex="1">
+          <mxGeometry x="61.58577366924964" y="334.696033311126" width="164.22872978466572" height="102.64317121918721" as="geometry" />
+        </mxCell>
+        <mxCell id="KKPglW3mis1pUIfQqAQX-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="KKPglW3mis1pUIfQqAQX-1" source="KKPglW3mis1pUIfQqAQX-21" target="KKPglW3mis1pUIfQqAQX-22" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KKPglW3mis1pUIfQqAQX-21" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;输出 IFormFile云存储的Url&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;direction=east;fontSize=12;align=center;" parent="KKPglW3mis1pUIfQqAQX-1" vertex="1">
+          <mxGeometry x="51.00557308671782" y="694.9735642904732" width="184.75732100774889" height="41.05726848767489" as="geometry" />
+        </mxCell>
+        <mxCell id="KKPglW3mis1pUIfQqAQX-22" value="&lt;b&gt;End&lt;/b&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;align=center;fontSize=12;" parent="KKPglW3mis1pUIfQqAQX-1" vertex="1">
+          <mxGeometry x="112.9072517269577" y="766.8237841439042" width="61.58577366924964" height="41.05726848767489" as="geometry" />
+        </mxCell>
+        <mxCell id="KKPglW3mis1pUIfQqAQX-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="KKPglW3mis1pUIfQqAQX-1" source="KKPglW3mis1pUIfQqAQX-25" target="KKPglW3mis1pUIfQqAQX-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KKPglW3mis1pUIfQqAQX-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;curved=1;" parent="KKPglW3mis1pUIfQqAQX-1" source="KKPglW3mis1pUIfQqAQX-25" target="KKPglW3mis1pUIfQqAQX-27" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KKPglW3mis1pUIfQqAQX-25" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;存储到云服务器&lt;/font&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;align=center;fontStyle=0;fontSize=12;" parent="KKPglW3mis1pUIfQqAQX-1" vertex="1">
+          <mxGeometry x="74.41614318367665" y="541.0088074616922" width="138.5679907558117" height="30.792951365756164" as="geometry" />
+        </mxCell>
+        <mxCell id="KKPglW3mis1pUIfQqAQX-26" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;文件备份服务器&lt;/font&gt;" style="shape=datastore;whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;align=center;" parent="KKPglW3mis1pUIfQqAQX-1" vertex="1">
+          <mxGeometry x="256.61" y="493" width="89.37" height="51.32" as="geometry" />
+        </mxCell>
+        <mxCell id="KKPglW3mis1pUIfQqAQX-27" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;文件云服务器&lt;/font&gt;" style="shape=datastore;whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;align=center;" parent="KKPglW3mis1pUIfQqAQX-1" vertex="1">
+          <mxGeometry x="261.6" y="571.8" width="79.39" height="51.32" as="geometry" />
+        </mxCell>
+        <mxCell id="KKPglW3mis1pUIfQqAQX-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="KKPglW3mis1pUIfQqAQX-1" source="KKPglW3mis1pUIfQqAQX-21" target="KKPglW3mis1pUIfQqAQX-22" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KKPglW3mis1pUIfQqAQX-29" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;N&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" parent="KKPglW3mis1pUIfQqAQX-1" vertex="1">
+          <mxGeometry x="181.5227974767338" y="134.24553630912726" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KKPglW3mis1pUIfQqAQX-30" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Y&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" parent="KKPglW3mis1pUIfQqAQX-1" vertex="1">
+          <mxGeometry x="30.606935220591097" y="356.5412684876749" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KKPglW3mis1pUIfQqAQX-31" value="401 无权限" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;fontSize=12;align=center;" parent="KKPglW3mis1pUIfQqAQX-1" vertex="1">
+          <mxGeometry x="329.4838891304856" y="217.4933910726183" width="102.64295611541608" height="30.792951365756164" as="geometry" />
+        </mxCell>
+        <mxCell id="KKPglW3mis1pUIfQqAQX-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="KKPglW3mis1pUIfQqAQX-1" source="KKPglW3mis1pUIfQqAQX-31" target="KKPglW3mis1pUIfQqAQX-22" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KKPglW3mis1pUIfQqAQX-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;curved=1;" parent="KKPglW3mis1pUIfQqAQX-1" source="KKPglW3mis1pUIfQqAQX-34" target="KKPglW3mis1pUIfQqAQX-19" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KKPglW3mis1pUIfQqAQX-34" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;DB&lt;/font&gt;" style="shape=datastore;whiteSpace=wrap;html=1;fontSize=12;align=center;" parent="KKPglW3mis1pUIfQqAQX-1" vertex="1">
+          <mxGeometry x="281.56" y="338" width="29.49" height="32.06" as="geometry" />
+        </mxCell>
+        <mxCell id="KKPglW3mis1pUIfQqAQX-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="KKPglW3mis1pUIfQqAQX-1" source="KKPglW3mis1pUIfQqAQX-36" target="KKPglW3mis1pUIfQqAQX-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="143.85407407407402" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KKPglW3mis1pUIfQqAQX-36" value="Http 请求&amp;nbsp;&lt;div&gt;api/Uploader/Upload&amp;nbsp;&lt;div&gt;（请求体&lt;span style=&quot;background-color: initial;&quot;&gt;IFormFile&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;、JWT 权限认证）&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="KKPglW3mis1pUIfQqAQX-1" vertex="1">
+          <mxGeometry x="35" y="68" width="216" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KKPglW3mis1pUIfQqAQX-38" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;DB&lt;/font&gt;" style="shape=datastore;whiteSpace=wrap;html=1;fontSize=12;align=center;" parent="KKPglW3mis1pUIfQqAQX-1" vertex="1">
+          <mxGeometry x="286.54999999999995" y="662.91" width="29.49" height="32.06" as="geometry" />
+        </mxCell>
+        <mxCell id="KKPglW3mis1pUIfQqAQX-37" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;FileService FlowChart&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontSize=22;" parent="1" vertex="1">
+          <mxGeometry x="280" width="240" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
